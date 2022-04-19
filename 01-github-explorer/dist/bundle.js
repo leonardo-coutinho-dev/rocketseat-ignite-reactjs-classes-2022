@@ -2,8 +2,6 @@
 
 var _react = _interopRequireDefault(require("react"));
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+var _App = require("./App");
 
-function App() {
-  return /*#__PURE__*/_react["default"].createElement("div", null, "Hello World!");
-}
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
