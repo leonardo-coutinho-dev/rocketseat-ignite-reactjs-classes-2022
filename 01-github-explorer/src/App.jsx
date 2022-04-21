@@ -1,5 +1,5 @@
 export function App() {
-  throw new Error('Eita Giovana, o forninho caiu!');
+  // throw new Error('Eita Giovana, o forninho caiu!');
   return (
     <>
       <h1>Texto 1</h1>
