@@ -7,6 +7,7 @@ export function Counter() {
   }
   return (
     <>
+      <p id="p-counter">counter ~</p>
       <h2 id="counter-number">{counter}</h2>
       <button type="button" onClick={increment}>
         Increment +1

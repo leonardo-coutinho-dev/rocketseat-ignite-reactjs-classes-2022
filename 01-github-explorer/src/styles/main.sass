@@ -13,19 +13,30 @@ body
     width: 320px
     border: 1px solid #bbccbc
     background-color: #ebebeb
+    h1
+      margin-bottom: 8px
     li
-      margin-top: 8px
       padding-top: 8px
       border-top: 1px solid #fff
       list-style: none
+      & + li
+        margin-top: 8px
       a
-        display: block
+        display: inline-block
         text-decoration: none
-        color: #7c7c7c
+        color: #8257e6
         &:hover
-          color: red
+          color: #ff5a70
       p, a
         margin-top: 4px
+      strong, p, a
+        white-space: nowrap
+        overflow: hidden
+        text-overflow: ellipsis
+  #p-counter
+    margin-top: 8px
+  h2
+    margin-top: 8px
   button
     margin-top: 8px
     padding: 8px
@@ -33,9 +44,7 @@ body
     cursor: pointer
     font-weight: bold
     color: #fff
-    background-color: #7c7c7c
+    background-color: #8257e6
     &:hover
       color: #7c7c7c
       background-color: #ebebeb
-  h2
-    margin-top: 8px

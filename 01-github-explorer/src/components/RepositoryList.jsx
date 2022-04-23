@@ -2,7 +2,8 @@ import { RepositoryItem } from './RepositoryItem';
 
 const repository = {
   title: 'Título do repositório',
-  description: 'Descrição do repositório',
+  description:
+    'Descrição do repositório Descrição do repositório Descrição do repositório',
   link: 'https://github.com/unform/unform',
 };
 
