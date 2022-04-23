@@ -3,7 +3,7 @@ import { RepositoryItem } from './RepositoryItem';
 const repository = {
   title: 'Título do repositório',
   description: 'Descrição do repositório',
-  link: 'https://github.com/',
+  link: 'https://github.com/unform/unform',
 };
 
 export function RepositoryList() {

@@ -6,12 +6,17 @@
 body
   font: 16px "Helvetica Neue", Arial, sans-serif
   color: #121214
+  margin-left: 8px
+  margin-top: 8px
   section
+    padding: 8px
     width: 320px
-    margin-left: 8px
-    margin-top: 8px
+    background-color: #ebebeb
     li
-      margin-top: 16px
+      margin-top: 8px
+      padding-top: 8px
+      border-top: 1px solid #fff
+      list-style: none
       a
         display: block
         text-decoration: none
@@ -20,3 +25,14 @@ body
           color: red
       p, a
         margin-top: 4px
+  button
+    margin-top: 8px
+    padding: 8px
+    border: none
+    cursor: pointer
+    font-weight: bold
+    color: #fff
+    background-color: #7c7c7c
+    &:hover
+      color: #7c7c7c
+      background-color: #ebebeb
