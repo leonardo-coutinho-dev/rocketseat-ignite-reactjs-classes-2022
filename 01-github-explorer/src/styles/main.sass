@@ -6,11 +6,10 @@
 body
   font: 16px "Helvetica Neue", Arial, sans-serif
   color: #121214
-  margin-left: 8px
-  margin-top: 8px
+  margin: 8px
   section
     padding: 8px
-    width: 320px
+    width: 100%
     border: 1px solid #bbccbc
     background-color: #ebebeb
     h1
@@ -29,10 +28,13 @@ body
           color: #ff5a70
       p, a
         margin-top: 4px
-      strong, p, a
         white-space: nowrap
         overflow: hidden
         text-overflow: ellipsis
+      p:nth-child(1)
+        font-weight: bold
+      p:nth-child(2)
+        font-style: italic
   #p-counter
     margin-top: 8px
   h2

@@ -1,11 +1,9 @@
 export function RepositoryItem(props) {
   return (
     <li>
-      <strong>{props.repository?.title ?? 'Default title'}</strong>
-      <p>{props.repository?.description ?? 'Default description'}</p>
-      <a href={props.repository?.link ?? 'https://www.google.com'}>
-        Acessar repositório
-      </a>
+      <p>{props.repository?.name}</p>
+      <p>{props.repository?.description}</p>
+      <a href={props.repository?.html_url}>Acessar repositório</a>
     </li>
   );
 }

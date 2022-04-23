@@ -2,13 +2,6 @@ import { useEffect, useState } from 'react';
 
 import { RepositoryItem } from './RepositoryItem';
 
-const repository = {
-  title: 'Título do repositório',
-  description:
-    'Descrição do repositório Descrição do repositório Descrição do repositório',
-  link: 'https://github.com/unform/unform',
-};
-
 export function RepositoryList() {
   const [repositories, setRepositories] = useState([]);
 
@@ -20,12 +13,11 @@ export function RepositoryList() {
 
   return (
     <section className="repositoryList">
-      <h1>Lista de repositórios</h1>
+      <h1>Lista de repositórios ~ RocketSeat</h1>
       <ul>
-        <RepositoryItem repository={repository} />
-        <RepositoryItem repository={repository} />
-        <RepositoryItem repository={repository} />
-        <RepositoryItem repository={repository} />
+        {repositories.map((repository) => (
+          <RepositoryItem key={repository.name} repository={repository} />
+        ))}
       </ul>
     </section>
   );
