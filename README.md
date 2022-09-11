@@ -10,7 +10,7 @@ Plz, enjoy ;)
 
 Primeiramente, você deve ter as seguintes ferramentas instaladas no seu dispositivo:
 
-I. Node.js
+### I. Node.js
 
 Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web.
 
@@ -18,7 +18,7 @@ fonte: https://pt.wikipedia.org/wiki/Node.js
 
 download: https://nodejs.org/en/
 
-II. Yarn
+### II. Yarn
 
 O Yarn é um sistema de empacotamento de software desenvolvido em 2016 pelo Facebook para o ambiente de tempo de execução JavaScript Node.js.
 
@@ -32,7 +32,7 @@ fonte: https://en.wikipedia.org/wiki/Yarn_(package_manager)
 
 download: https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable
 
-III. Visual Studio Code
+### III. Visual Studio Code
 
 O Visual Studio Code é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS.
 
