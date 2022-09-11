@@ -5,13 +5,25 @@
 
 body
   font: 16px "Helvetica Neue", Arial, sans-serif
-  color: #121214
+  color: #ffffff
   margin: 8px
+  background-color: #121214
+  .user-data-table
+    border: 2px solid #bbcbcb
+    background-color: #fafafa
+    padding: 8px
+    margin-bottom: 8px
+    li
+      list-style: none
+      color: #121214
+      & + li
+        margin-top: 8px
+        padding-top: 8px
+        border-top: 1px solid #ebebeb
   section
     padding: 8px
     width: 100%
     border: 1px solid #ebebeb
-    background-color: #ffffff
     h1
       margin-bottom: 8px
     li
@@ -20,6 +32,8 @@ body
       list-style: none
       & + li
         margin-top: 8px
+      p
+        margin-bottom: 8px
       a
         display: inline-block
         text-decoration: none
@@ -27,7 +41,6 @@ body
         &:hover
           color: #ff5a70
       p, a
-        margin-top: 4px
         white-space: nowrap
         overflow: hidden
         text-overflow: ellipsis
@@ -35,18 +48,22 @@ body
         font-weight: bold
       p:nth-child(2)
         font-style: italic
-  #p-counter
-    margin-top: 8px
-  h2
-    margin-top: 8px
-  button
-    margin-top: 8px
-    padding: 8px
-    border: none
-    cursor: pointer
-    font-weight: bold
-    color: #fff
-    background-color: #8257e6
-    &:hover
-      color: #000
-      background-color: #ebebeb
+  .container
+    margin-bottom: 8px
+    #p-counter
+      margin-top: 8px
+    h2
+      margin-top: 8px
+    button
+      margin-top: 8px
+      padding: 8px
+      border: none
+      cursor: pointer
+      font-weight: bold
+      color: #fff
+      background-color: #8257e6
+      &:hover
+        color: #000
+        background-color: #ebebeb
+    button:last-child
+      margin-left: 8px

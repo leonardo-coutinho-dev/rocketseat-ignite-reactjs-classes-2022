@@ -1,13 +1,14 @@
-import './styles/main.sass';
-import { RepositoryList } from './components/RepositoryList';
-import { Counter } from './components/Counter';
+import "./styles/main.sass";
+import { RepositoryList } from "./components/RepositoryList";
+import { Counter } from "./components/Counter";
+import UserData from "./components/UserData";
 
 export function App() {
-  // throw new Error('Eita Giovana, o forninho caiu!');
   return (
     <>
-      <RepositoryList />
       <Counter />
+      <UserData />
+      <RepositoryList />
     </>
   );
 }
