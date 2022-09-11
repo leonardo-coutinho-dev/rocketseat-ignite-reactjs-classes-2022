@@ -93,7 +93,7 @@ yarn add @babel/core @babel/cli @babel/present-env -D
 
 Depois de instalado, cria-se o arquivo de configuração babel.config.js.
 
-Em relação às dependências, babel/core contém praticamente todas as funcionalidades, enquanto babel/cli é para podermos executar o babel através da linha de comando, e o babel/preset-env é basicamente uma extensão que identifica qual o ambiente que a minha aplicação está sendo executada, para covnerter o código da melhor maneira possível.
+Em relação às dependências, babel/core contém praticamente todas as funcionalidades, enquanto babel/cli é para podermos executar o babel através da linha de comando, e o babel/preset-env é basicamente uma extensão que identifica qual o ambiente que a minha aplicação está sendo executada, para converter o código da melhor maneira possível.
 
 Para converter o nosso arquivo (depois de configurado o babel), usaremos a seguinte linha de comando:
 
@@ -107,3 +107,16 @@ Para que o babel consiga entender o código react da aplicação, precisamos ins
 yarn add @babel/preset-react
 ```
 
+Também vamos configurar na nossa aplicação o Webpack, que muitas vezes é utilizado em conjunto com o Babel. Muitas vezes dentro da nossa aplicação, não importamos apenas arquivos JavaScript, importamos também, por exemplo, arquivos CSS/SASS e arquivos de imagem (PNG, JPG, ...). O webpack vai pegar todos esses demais arquivos, e converter em arquivos que são entendidos pelo browser diretamente.
+
+```
+yarn add webpack webpack-cli -D
+```
+
+Assim como o babel, criamos uma arquivo de configuração, dessa vez chamado webpack.config.js.
+
+Depois de configurado, para converter o código basta utilizar:
+
+```
+yarn webpack
+```
