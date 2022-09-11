@@ -120,3 +120,67 @@ Depois de configurado, para converter o código basta utilizar:
 ```
 yarn webpack
 ```
+
+Para não ter que criar a tag script dentro do arquivo index.html para puxar o arquivo bundle.js, podemos instalar o seguinte plugin:
+
+```
+yarn add html-webpack-plugin -D
+```
+
+Depois, realizar as devidas configurações no arquivo webpack.config.json.
+
+No próximo passo, usaremos a funcionalidade dev-server de dentro do webpack, instalando a seguinte dependência:
+
+```
+yarn add webpack-dev-server
+```
+
+O objetivo é automatizar, fazer com que o webpack fique observando os arquivos de dentro da pasta source e toda vez que houver uma alteração ele cria o bundle.js novamente.
+
+Feito isso, podemos executar:
+
+```
+yarn webpack serve
+```
+
+E a aplicação será iniciada na porta :8080.
+
+Posteriormente, vamos configurar uma funcionalidade dentro do webpack chamada source-map, que é uma forma de conseguirmos visualizar o código original da nossa aplicação, mesmo ele estando dentro do arquivo bundle.js.
+
+Também instalaremos a dependência cross-env, que serve para definir variáveis de ambiente independente do sistema operacional da pessoa.
+
+```
+yarn add cross-env -D
+```
+
+Instalaremos, ainda, duas bibliotecas para lidar com as importações de arquivos de estilos dentro da nossa aplicação:
+
+```
+yarn add style-loader css-loader -D
+```
+
+E, por último, instalaremos a dependência sass-loader para lidar com os arquivos .sass.
+
+```
+yarn add node-sass sass-loader -D
+```
+
+Instaladas as dependências, nossa aplicação foi estruturada, conforme código que pode visualizar, e para iniciá-la no seu dispositivo, basta executar os comandos:
+
+```
+git clone https://github.com/leonardo-coutinho-dev/rocketseat-ignite-reactjs-classes-2022.git
+```
+
+Para clonar o repositório e:
+
+```
+yarn
+```
+
+Para instalar todas as dependências e, finalmente:
+
+```
+yarn dev
+```
+
+O que deve iniciar a sua aplicação no endereço localhost:8080! Great hack ;)
