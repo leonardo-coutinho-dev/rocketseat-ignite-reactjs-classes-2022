@@ -1,6 +1,6 @@
-# rocketseat-ignite-reactjs-classes-2022
+## Rocketseat - Ignite React - 2021
 
-Projetos desenvolvidos ao longo do curso de React da Rocketseat, 2021.
+Projetos desenvolvidos ao longo do curso de React da Rocketseat, trilha de 2021, em 2022.
 
 Documentação de cada uma das aplicações (divididas em pastas) presente aqui nesse arquivo, que também contém uma descrição do se trata a aplicação e o que foi usado em cada uma!
 
@@ -24,7 +24,9 @@ O Yarn é um sistema de empacotamento de software desenvolvido em 2016 pelo Face
 
 Yarn é um gerenciador de pacotes, e você pode instalá-lo usando npm, que veio instalado junto com o Node.js, com a seguinte linha de comando:
 
+```
 npm install --global yarn
+```
 
 fonte: https://en.wikipedia.org/wiki/Yarn_(package_manager)
 
@@ -40,7 +42,7 @@ download: https://code.visualstudio.com/
 
 -----------------------
 
-01 - Github Explorer
+## Primeira aplicação: 01 - Github Explorer
 
 Descrição:
 
