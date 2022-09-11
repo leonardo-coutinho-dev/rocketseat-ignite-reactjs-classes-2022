@@ -44,9 +44,18 @@ download: https://code.visualstudio.com/
 
 ## Primeira aplicação: 01 - Github Explorer
 
-Descrição: Aplicação feita para consumir a API do github que contém as informações do usuário, como nome, descrição do perfil, quantidade de repositórios, nome dos repositórios, descrição, ... apresentando essas informações em tela.
+Descrição: Aplicação feita para consumir a API do github que contém as informações do usuário, como nome, descrição do perfil, quantidade de repositórios, nome dos repositórios, descrição, ..., apresentando essas informações em tela.
 
-Passos:
+Alguns dos assuntos abordados durante o desenvolvimento desse primeiro projeto são:
+
+- Babel e Webpack (configuração);
+- Propriedades, componentes e estados no React;
+- Imutabilidade;
+- Fundamentos de Typescript e como utilizar na aplicação;
+
+dentre outros...
+
+Passos (resumidos) de como criar a aplicação:
 
 Primeiramente, vamos inicializar o projeto com o arquivo package.json
 
