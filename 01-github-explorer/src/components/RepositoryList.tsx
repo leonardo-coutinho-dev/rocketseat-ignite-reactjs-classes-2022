@@ -19,7 +19,7 @@ export function RepositoryList() {
 
   return (
     <section>
-      <h1>Lista de repositórios</h1>
+      <h1>Lista de repositórios públicos</h1>
       <ul>
         {repositories.map((repository) => (
           <RepositoryItem key={repository.name} repository={repository} />
