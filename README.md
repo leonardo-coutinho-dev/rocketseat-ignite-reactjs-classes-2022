@@ -44,9 +44,18 @@ download: https://code.visualstudio.com/
 
 ## Primeira aplicação: 01 - Github Explorer
 
-Descrição:
+Descrição: Aplicação feita para consumir a API do github que contém as informações do usuário, como nome, descrição do perfil, quantidade de repositórios, nome dos repositórios, descrição, ..., apresentando essas informações em tela.
 
-Passos:
+Alguns dos assuntos abordados durante o desenvolvimento desse primeiro projeto são:
+
+- Babel e Webpack (configuração);
+- Propriedades, componentes e estados no React;
+- Imutabilidade;
+- Fundamentos de Typescript e como utilizar na aplicação;
+
+dentre outros...
+
+Passos (resumidos) de como criar a aplicação:
 
 Primeiramente, vamos inicializar o projeto com o arquivo package.json
 
@@ -164,6 +173,14 @@ E, por último, instalaremos a dependência sass-loader para lidar com os arquiv
 ```
 yarn add node-sass sass-loader -D
 ```
+
+Além do mais, instalaremos as seguintes dependências:
+
+```
+yarn add -D @pmmmwh/react-refresh-webpack-plugin react-refresh
+```
+
+Esse plugin faz com que quando alteramos algo no código da nossa aplicação e salvamos, essas alterações são refletidas no browser porém mantendo o estado dos componentes. Depois de instaladas, precisamos realizar as devidas configurações no webpack.config.js.
 
 Instaladas as dependências, nossa aplicação foi estruturada, conforme código que pode visualizar, e para iniciá-la no seu dispositivo, basta executar os comandos:
 
