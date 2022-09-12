@@ -182,7 +182,7 @@ Para clonar o repositório e:
 yarn
 ```
 
-Para instalar todas as dependências e, finalmente:
+Dentro do diretório 01-github-explorer, para instalar todas as dependências e, finalmente:
 
 ```
 yarn dev
