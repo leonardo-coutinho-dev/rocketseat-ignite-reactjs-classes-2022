@@ -10,16 +10,16 @@ const UserData = () => {
   return (
     <ul className="user-data-table">
       <li>
-        <strong>Name:</strong> <i>{userData.name}</i>
+        <strong>Nome:</strong> <i>{userData.name}</i>
       </li>
       <li>
         <strong>Bio:</strong> <i>{userData.bio}</i>
       </li>
       <li>
-        <strong>Public repositories:</strong> <i>{userData.public_repos}</i>
+        <strong>Repositórios publicos:</strong> <i>{userData.public_repos}</i>
       </li>
       <li>
-        <strong>Profile:</strong>{" "}
+        <strong>Perfil:</strong>{" "}
         <i>
           <a href="https://github.com/leonardo-coutinho-dev">
             {userData.html_url}
