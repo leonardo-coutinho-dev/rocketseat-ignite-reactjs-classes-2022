@@ -168,7 +168,7 @@ Instalaremos, ainda, duas bibliotecas para lidar com as importações de arquivo
 yarn add style-loader css-loader -D
 ```
 
-E, por último, instalaremos a dependência sass-loader para lidar com os arquivos .sass.
+E, posteriormente, instalaremos a dependência sass-loader para lidar com os arquivos .sass.
 
 ```
 yarn add node-sass sass-loader -D
@@ -182,7 +182,39 @@ yarn add -D @pmmmwh/react-refresh-webpack-plugin react-refresh
 
 Esse plugin faz com que quando alteramos algo no código da nossa aplicação e salvamos, essas alterações são refletidas no browser porém mantendo o estado dos componentes. Depois de instaladas, precisamos realizar as devidas configurações no webpack.config.js.
 
+Por fim, vamos configurar e utilizar o typescript na nossa aplicação:
+
+```
+yarn add typescript -D
+```
+
+e depois 
+
+```
+yarn tsc --init
+```
+
+que vai iniciar o typescript na aplicação (criar o arquivo tsconfig.json, que é a configuração do typescript).
+
+e também vamos instalar @babel/preset-typescript:
+
+```
+yarn add @babel/preset-typescript -D
+```
+
+para que o Babel entenda typescript.
+
+Instalaremos também a seguinte dependência:
+
+```
+yarn add @types/react-dom -D
+```
+
+Quando utilizamos typescript na nossa aplicação, juntamente com bibliotecas de terceiros, algumas dessas bibliotecas não incluem as definições de tipo do typescript. Nesses casos, as definições de tipo ou são criadas pela comunidade, ou mantidas num repositório a parte (99% das vezes).
+
 Instaladas as dependências, nossa aplicação foi estruturada, conforme código que pode visualizar, e para iniciá-la no seu dispositivo, basta executar os comandos:
+
+* Obs3.: para iniciar a aplicação no seu dispositivo, não precisa seguir os passos acima, apenas executar as três linhas de código abaixo. Caso queira programar a aplicação você mesmo, volte e revise o conteúdo acima.
 
 ```
 git clone https://github.com/leonardo-coutinho-dev/rocketseat-ignite-reactjs-classes-2022.git
@@ -201,3 +233,7 @@ yarn dev
 ```
 
 O que deve iniciar a sua aplicação no endereço localhost:8080! Great hack ;)
+
+-----------------------
+
+## Segunda aplicação: [app_name]
