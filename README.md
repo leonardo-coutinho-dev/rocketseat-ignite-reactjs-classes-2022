@@ -233,3 +233,7 @@ yarn dev
 ```
 
 O que deve iniciar a sua aplicação no endereço localhost:8080! Great hack ;)
+
+-----------------------
+
+## Segunda aplicação: [app_name]
