@@ -14,4 +14,14 @@ Isso deve iniciar a sua aplicação com as configurações do Babel, Webpack e T
 
 Uma coisa muito importante, é que toda configuração do Webpack e do Babel não fica "visível" quando utilizamos o create-react-app, mas ficam dentro de um pacote chamado "react-scripts". Portanto, não temos acesso para fazer mudanças nessas configurações pré-estabelecidas, de forma direta. Se precisarmos alterar alguma configuração, temos o script "eject" (que é um script que não tem mais volta), que serve justamente para trazer toda a configuração para a pasta raiz.
 
+* Obs.: recomenda-se utilizar a estrutura sem ejetar!
+
+Vamos começar nossa aplicação instalando uma biblioteca CSS-in-JS, chamada Styled Components. CSS-in-JS é uma técnica de estilo pela qual o JavaScript é usado para estilizar componentes. Quando esse JavaScript é analisado, o CSS é gerado e anexado ao DOM.
+
+Para instalar tal biblioteca, utilizaremos a seguinte linha de comando:
+
+```
+yarn add styled-components
+```
+
 -----------------------
