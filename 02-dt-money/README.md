@@ -24,4 +24,11 @@ Para instalar tal biblioteca, utilizaremos a seguinte linha de comando:
 yarn add styled-components
 ```
 
+O styled-components tem a sua tipagem, ou seja, sua integração com o typescript, separada do código principal. Portanto, também teremos que instalar:
+
+```
+yarn add @types/styled-components -D
+```
+
+
 -----------------------
