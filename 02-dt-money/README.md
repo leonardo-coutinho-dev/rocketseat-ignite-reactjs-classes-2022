@@ -56,4 +56,13 @@ https://axios-http.com/ptbr/docs/intro
 yarn add axios
 ```
 
+No próximo passo, vamos configurar o modal da nossa aplicação, e para tal vamos utilizar uma biblioteca chamada react-modal.
+
+https://github.com/reactjs/react-modal
+
+```
+yarn add react-modal
+yarn add @types/react-modal
+```
+
 -----------------------
