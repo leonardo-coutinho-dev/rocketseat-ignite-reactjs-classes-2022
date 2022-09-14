@@ -46,4 +46,14 @@ yarn add miragejs
 
 E a biblioteca será instalada na sua aplicação.
 
+Após, vamos configurar um cliente HTTP para não precisar fazer as requisições usando o fetch, que é a API nativa de requisições HTTP do próprio browser.
+
+A biblioteca especializada em requisições HTTP que vamos utilizar é:
+
+https://axios-http.com/ptbr/docs/intro
+
+```
+yarn add axios
+```
+
 -----------------------
