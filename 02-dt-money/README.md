@@ -30,5 +30,15 @@ O styled-components tem a sua tipagem, ou seja, sua integração com o typescrip
 yarn add @types/styled-components -D
 ```
 
+Assim que terminada uma boa parte visual da aplicação, teriamos que fazê-la funcionar realmente (os dados virem de alguma API, de um banco de dados, conseguir cadastrar novas transações e essas transações ficarem persistidas para termos acesso a elas depois, ...). Não podemos simplesmente deixar dados estáticos jogados no HTML, pois consumir uma API é muito diferente de deixar a aplicação apenas com dados estáticos. No dia-a-dia, isso significaria conectar o front-end com o back-end (programado em PHP, Python, Ruby, Node.js, ...). Nesta aplicação, especificamente, trabalharemos não tendo um back-end pronto. Porém, temos algumas ferramentas que podemos utilizar, sendo algumas delas:
+
+- json-server: https://github.com/typicode/json-server
+- Mirage JS: https://miragejs.com/
+- MSW JS: https://mswjs.io/
+
+Para citar algumas. Essas ferramentas são utilizadas para simular APIs, ou seja, para criar APIs que são fictícias até que termos o nosso back-end pronto. Essas ferramentas só podem ser utilizadas para ambiente de desenvolvimento e ambiente de testes, mas para ambientes de produção elas jamais serão utilizadas.
+
+No nosso caso, iremos utilizar o Mirage JS para construir nossa fake API!
+
 
 -----------------------
