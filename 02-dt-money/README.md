@@ -36,9 +36,14 @@ Assim que terminada uma boa parte visual da aplicação, teriamos que fazê-la f
 - Mirage JS: https://miragejs.com/
 - MSW JS: https://mswjs.io/
 
-Para citar algumas. Essas ferramentas são utilizadas para simular APIs, ou seja, para criar APIs que são fictícias até que termos o nosso back-end pronto. Essas ferramentas só podem ser utilizadas para ambiente de desenvolvimento e ambiente de testes, mas para ambientes de produção elas jamais serão utilizadas.
+Para citar algumas. Essas ferramentas são utilizadas para simular APIs, ou seja, para criar APIs que são fictícias até que termos o nosso back-end pronto. Essas ferramentas só podem ser utilizadas para ambiente de desenvolvimento e ambiente de testes, mas para ambiente de produção elas jamais serão utilizadas.
 
-No nosso caso, iremos utilizar o Mirage JS para construir nossa fake API!
+No nosso caso, iremos utilizar o Mirage JS para construir nossa fake API! Para tal, utilize a seguinte linha de comando:
 
+```
+yarn add miragejs
+```
+
+E a biblioteca será instalada na sua aplicação.
 
 -----------------------
