@@ -65,4 +65,6 @@ yarn add react-modal
 yarn add @types/react-modal
 ```
 
+*Obs2.: Uma funcionalidade muito interessante/utilizada do React é a de quando nós precisamos de que um estado do componente mãe/pai seja alterado por um componente filho/filha, nós podemos passar uma função para esse componente para alterar essa informação. Isso é muito utilizado!
+
 -----------------------
