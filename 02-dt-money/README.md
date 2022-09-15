@@ -67,4 +67,12 @@ yarn add @types/react-modal
 
 *Obs2.: Uma funcionalidade muito interessante/utilizada do React é a de quando nós precisamos de que um estado do componente mãe/pai seja alterado por um componente filho/filha, nós podemos passar uma função para esse componente para alterar essa informação. Isso é muito utilizado!
 
+Vamos também utilizar a biblioteca 'polished' na nossa aplicação. Essa é uma biblioteca para leve para escrever estilos no JavaScript.
+
+https://github.com/styled-components/polished
+
+```
+yarn add polished
+```
+
 -----------------------
