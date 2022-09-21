@@ -76,3 +76,25 @@ yarn add polished
 ```
 
 -----------------------
+
+* Para iniciar a aplicação no seu dispositivo, não precisa seguir os passos acima, basta apenas executar as três linhas de código abaixo. Caso queira programar a aplicação você mesmo, volte e revise o conteúdo acima.
+
+```
+git clone https://github.com/leonardo-coutinho-dev/rocketseat-ignite-reactjs-classes-2022.git
+```
+
+Para clonar o repositório e:
+
+```
+yarn
+```
+
+Dentro do diretório 02-dt-money, para instalar todas as dependências e, finalmente:
+
+```
+yarn start
+```
+
+O que deve iniciar a sua aplicação no endereço localhost:8080! Great hack ;)
+
+-----------------------
