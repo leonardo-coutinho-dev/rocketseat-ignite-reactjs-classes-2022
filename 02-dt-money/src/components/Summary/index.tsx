@@ -27,9 +27,7 @@ export const Summary = () => {
       total: 0,
     }
   );
-
-  console.log(transactions);
-
+  
   return (
     <Container>
       <div>
